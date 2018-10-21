@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="Map" />
+
+    <item android:title="Outils">
+        <menu>
+            <item
+                android:id="@+id/nav_parametres"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Paramètres" />
+            <item
+                android:id="@+id/nav_noter"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Noter l'application" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="À propos"/>
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_paiements"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Paiements" />
+        <item
+            android:id="@+id/nav_mesDestinations"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Mes destinations" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">G-driv</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="menu_search">Destination…</string>
+    <string name="menu_paiement">Paiement</string>
+    <string name="menu_destination">Mes destinations</string>
+    <string name="menu_services">Services</string>
+    <string name="menu_about">A propos</string>
+
+    <string name="textSplash">Client G driv</string>
+    <string name="title_activity_Signup">Sign up</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="password_place">Mot de passe</string>
+    <string name="email_place">Email</string>
+    <string name="login_text_button">Connexion</string>
+    <string name="password_forgot">Mot de passe oublié?</string>
+    <string name="text_lien_creation_compte">Pas encore inscrit? Créez un compte</string>
+    <string name="name_place">Nom</string>
+    <string name="text_creer_compte_button">Créer un compte</string>
+    <string name="text_deja_membre_connectez_vous_button">Déjà membre? connectez-vous</string>
+    <string name="prenom_place">Prénom</string>
+    <string name="title_scrollingActivity">Profil</string>
+    <string name="telephone">Téléphone</string>
+    <string name="contact1">Contact 1</string>
+    <string name="contact2">Contact 2</string>
+    <string name="subtitleEmail">E-mail</string>
+    <string name="positionhome">Domicile</string>
+    <string name="edit_mot_de_passe">Mot de passe</string>
+    <string name="edit_nom">Nom</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_settings">settings</string>
+    <string name="hint_modif_nom">Nouveau nom</string>
+    <string name="hint_modif_pwd">Nouveau mot de passe</string>
+    <string name="hint_modif_contact1">Nouveau contact 1</string>
+    <string name="hint_modif_contact2">Nouveau contact 2</string>
+    <string name="hint_modif_email">Email</string>
+    <string name="auth_failed">Echec de connexion, vérifiez votre email et password ou créez un compte</string>
+    <string name="title_activity_confirme_email">ConfirmeEmailActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="non">Non</string>
+    <string name="oui">Oui</string>
+
+    <string name="title_activity_edit_contact">EditContactActivity</string>
+
+    <string name="title_activity_confirme_phone">ConfirmePhoneActivity</string>
+    <string name="logo_description">logo</string>
+    <string name="info_telephone">Le numéro de téléphone sera celui utilisé pour le paiement.</string>
+    <string name="dialogTitleAbout">A propos</string>
+    <string name="dialogAboutContent">G drive v 1.0.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="passwordHide_place">*******</string>
+    <string name="textSearchTaxi">Recherche d\'un taxi....</string>
+    <string name="localisationOfTaxi">Localisation du taxi....</string>
+    <string name="se_d_connecter">Déconnexion</string>
+    <string name="changer_d_adresse_email">Changer d\'adresse email</string>
+    <string name="text_updateEmailPassword">Modifier les informations de connexion</string>
+    <string name="nouvel_email_si_vous_d_sirez_en_changer">Nouvel email (si vous désirez en changer)</string>
+    <string name="mot_de_passe_ancien">Mot de passe (ancien)</string>
+    <string name="mot_de_passe_nouveau">Nouveau mot de passe (si vous souhaitez en changer)</string>
+    <string name="channel_name">réponses chauffeurs</string>
+    <string name="channel_description">Réponses des chauffeurs de Gdriv par rapport à la commande</string>
+
+    <string name="morphing_dialog_transition">morphing_dialog_transition</string>
+    <string name="contact_place">N° de téléphone</string>
+</resources>

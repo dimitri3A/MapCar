@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:showIn="@layout/activity_maps">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contentFragment">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/driver_button"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_person"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/setMyLocation"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_my_location"
+            android:background="@drawable/circularbutton"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/setMyDestination"
+            android:src="@drawable/ic_subdirectory_arrow"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circularbutton"
+            />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_commander"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="Commander une course"
+        android:textColor="@color/material_blue_secondary"
+        android:visibility="gone"
+        android:background="@drawable/border_commande_btn"
+        android:textSize="14sp"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHome"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:menu_showShadow="true"
+        app:menu_fab_label=""
+        app:menu_colorNormal="@color/material_blue_secondary"
+        app:menu_openDirection="up"
+        app:menu_backgroundColor="@android:color/transparent">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="Paiements"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/material_blue_secondary"
+            android:id="@+id/action_paiement"
+            android:src="@drawable/ic_monetization_on_black_24dp"
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="Services"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/material_blue_secondary"
+            android:id="@+id/action_service"
+            android:src="@drawable/ic_business_center_black_24dp"
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="A propos"
+            app:fab_colorNormal="@color/material_blue_secondary"
+            app:fab_size="mini"
+            android:id="@+id/action_about"
+            android:src="@drawable/ic_info_black_24dp"
+            />
+    </com.github.clans.fab.FloatingActionMenu>
+
+        <LinearLayout
+            android:id="@+id/driverInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:id="@+id/driverProfileImage"
+                android:src="@drawable/ic_person"
+                android:padding="20sp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/driverName"
+                android:paddingTop="10sp"
+                android:text=""/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/driverPhone"
+                android:paddingTop="10sp"
+                android:text=""/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/driverCar"
+                android:paddingTop="10sp"
+                android:text=""
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/immatriculation"
+                android:paddingTop="10sp"
+                android:text=""/>
+           </LinearLayout>
+        </LinearLayout>
+
+</FrameLayout>
