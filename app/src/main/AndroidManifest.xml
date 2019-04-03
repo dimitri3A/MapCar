@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.community.hanrynzale.mapcar">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -23,7 +24,8 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -32,11 +34,11 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="tabian.com.mapcar2.MapsActivity"
             android:theme="@style/AppTheme"
             android:launchMode="singleTask"/>
         <activity
-            android:name=".SplashActivity"
+            android:name="tabian.com.mapcar2.SplashActivity"
             android:theme="@style/AppTheme.Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,38 +46,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="tabian.com.mapcar2.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.Login" />
         <activity
-            android:name=".SignupActivity"
+            android:name="tabian.com.mapcar2.SignupActivity"
             android:label="@string/title_activity_Signup"
             android:theme="@style/AppTheme.Login" />
         <activity
-            android:name=".ScrollingActivity"
+            android:name="tabian.com.mapcar2.ScrollingActivity"
             android:label="Profile"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".EditProfilActivity"
+            android:name="tabian.com.mapcar2.EditProfilActivity"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".EditContactActivity"
+            android:name="tabian.com.mapcar2.EditContactActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_edit_contact"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".ConfirmePhoneActivity"
+            android:name="tabian.com.mapcar2.ConfirmePhoneActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_confirme_phone"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".EditActivity"
+            android:name="tabian.com.mapcar2.EditActivity"
             android:label="@string/title_activity_edit"
             android:theme="@style/AppTheme.Edit"
             android:windowSoftInputMode="adjustResize" />
 
-        <activity android:name=".UpdateEmailPassword"
+        <activity android:name="tabian.com.mapcar2.UpdateEmailPassword"
             android:label="@string/text_updateEmailPassword"
             android:theme="@style/AppTheme.Edit"
             android:windowSoftInputMode="adjustResize">
